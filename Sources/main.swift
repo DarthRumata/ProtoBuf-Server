@@ -20,7 +20,7 @@ server.addRoutes(Router.makeRoutes())
 server.serverPort = 8181
 
 let logger = RequestLogger()
-RequestLogFile.location = "$ROOT/myLog.log"
+RequestLogFile.location = "/Users/rumata/Library/Developer/myLog.log"
 
 server.setRequestFilters([(logger, .high)])
 // Response filter at low priority to be executed last

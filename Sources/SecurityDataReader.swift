@@ -14,7 +14,7 @@ struct SecurityDataReader {
   let databaseName: String
   
   init?() {
-    let path = "/Users/rumata/Develop/Projects/Education/GraphQL-Server/Security.plist"
+    let path = "/Users/rumata/Develop/Projects/Education/ProtoBuf-Server/Security.plist"
     guard
       let dict = NSDictionary(contentsOfFile: path) as? [String: Any] else
     {

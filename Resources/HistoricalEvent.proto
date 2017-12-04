@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "google/protobuf/timestamp.proto";
+
+message HistoricalEvent {
+  string id = 1;
+  string name = 2;
+  int64 date = 3;
+  string description = 4;
+}
+
+message HistoricalEvents {
+  repeated HistoricalEvent events = 1;
+}
