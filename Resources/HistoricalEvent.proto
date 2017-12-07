@@ -1,12 +1,16 @@
 syntax = "proto3";
 
 import "google/protobuf/timestamp.proto";
+import "Resources/Battle.proto";
 
 message HistoricalEvent {
   string id = 1;
   string name = 2;
   int64 date = 3;
   string description = 4;
+  bool verified = 5;
+  Battle battle = 6;
+  repeated string sources = 7;
 }
 
 message HistoricalEvents {

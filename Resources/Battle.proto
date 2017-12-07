@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message Battle {
+  uint32 duration = 1;
+
+  message Force {
+    string name = 1;
+    int64 quantity = 2;
+    int64 casualties = 3;
+  }
+  repeated Force forces = 2;
+}

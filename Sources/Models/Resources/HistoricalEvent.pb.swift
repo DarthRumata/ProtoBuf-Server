@@ -22,13 +22,44 @@ fileprivate struct _GeneratedWithProtocGenSwiftVersion: SwiftProtobuf.ProtobufAP
 struct HistoricalEvent: SwiftProtobuf.Message {
   static let protoMessageName: String = "HistoricalEvent"
 
-  var id: String = String()
+  var id: String {
+    get {return _storage._id}
+    set {_uniqueStorage()._id = newValue}
+  }
 
-  var name: String = String()
+  var name: String {
+    get {return _storage._name}
+    set {_uniqueStorage()._name = newValue}
+  }
 
-  var date: Int64 = 0
+  var date: Int64 {
+    get {return _storage._date}
+    set {_uniqueStorage()._date = newValue}
+  }
 
-  var description_p: String = String()
+  var description_p: String {
+    get {return _storage._description_p}
+    set {_uniqueStorage()._description_p = newValue}
+  }
+
+  var verified: Bool {
+    get {return _storage._verified}
+    set {_uniqueStorage()._verified = newValue}
+  }
+
+  var battle: Battle {
+    get {return _storage._battle ?? Battle()}
+    set {_uniqueStorage()._battle = newValue}
+  }
+  /// Returns true if `battle` has been explicitly set.
+  var hasBattle: Bool {return _storage._battle != nil}
+  /// Clears the value of `battle`. Subsequent reads from it will return its default value.
+  mutating func clearBattle() {_storage._battle = nil}
+
+  var sources: [String] {
+    get {return _storage._sources}
+    set {_uniqueStorage()._sources = newValue}
+  }
 
   var unknownFields = SwiftProtobuf.UnknownStorage()
 
@@ -39,13 +70,19 @@ struct HistoricalEvent: SwiftProtobuf.Message {
   /// initializers are defined in the SwiftProtobuf library. See the Message and
   /// Message+*Additions` files.
   mutating func decodeMessage<D: SwiftProtobuf.Decoder>(decoder: inout D) throws {
-    while let fieldNumber = try decoder.nextFieldNumber() {
-      switch fieldNumber {
-      case 1: try decoder.decodeSingularStringField(value: &self.id)
-      case 2: try decoder.decodeSingularStringField(value: &self.name)
-      case 3: try decoder.decodeSingularInt64Field(value: &self.date)
-      case 4: try decoder.decodeSingularStringField(value: &self.description_p)
-      default: break
+    _ = _uniqueStorage()
+    try withExtendedLifetime(_storage) { (_storage: _StorageClass) in
+      while let fieldNumber = try decoder.nextFieldNumber() {
+        switch fieldNumber {
+        case 1: try decoder.decodeSingularStringField(value: &_storage._id)
+        case 2: try decoder.decodeSingularStringField(value: &_storage._name)
+        case 3: try decoder.decodeSingularInt64Field(value: &_storage._date)
+        case 4: try decoder.decodeSingularStringField(value: &_storage._description_p)
+        case 5: try decoder.decodeSingularBoolField(value: &_storage._verified)
+        case 6: try decoder.decodeSingularMessageField(value: &_storage._battle)
+        case 7: try decoder.decodeRepeatedStringField(value: &_storage._sources)
+        default: break
+        }
       }
     }
   }
@@ -55,20 +92,33 @@ struct HistoricalEvent: SwiftProtobuf.Message {
   /// other serializer methods are defined in the SwiftProtobuf library. See the
   /// `Message` and `Message+*Additions` files.
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if !self.id.isEmpty {
-      try visitor.visitSingularStringField(value: self.id, fieldNumber: 1)
-    }
-    if !self.name.isEmpty {
-      try visitor.visitSingularStringField(value: self.name, fieldNumber: 2)
-    }
-    if self.date != 0 {
-      try visitor.visitSingularInt64Field(value: self.date, fieldNumber: 3)
-    }
-    if !self.description_p.isEmpty {
-      try visitor.visitSingularStringField(value: self.description_p, fieldNumber: 4)
+    try withExtendedLifetime(_storage) { (_storage: _StorageClass) in
+      if !_storage._id.isEmpty {
+        try visitor.visitSingularStringField(value: _storage._id, fieldNumber: 1)
+      }
+      if !_storage._name.isEmpty {
+        try visitor.visitSingularStringField(value: _storage._name, fieldNumber: 2)
+      }
+      if _storage._date != 0 {
+        try visitor.visitSingularInt64Field(value: _storage._date, fieldNumber: 3)
+      }
+      if !_storage._description_p.isEmpty {
+        try visitor.visitSingularStringField(value: _storage._description_p, fieldNumber: 4)
+      }
+      if _storage._verified != false {
+        try visitor.visitSingularBoolField(value: _storage._verified, fieldNumber: 5)
+      }
+      if let v = _storage._battle {
+        try visitor.visitSingularMessageField(value: v, fieldNumber: 6)
+      }
+      if !_storage._sources.isEmpty {
+        try visitor.visitRepeatedStringField(value: _storage._sources, fieldNumber: 7)
+      }
     }
     try unknownFields.traverse(visitor: &visitor)
   }
+
+  fileprivate var _storage = _StorageClass.defaultInstance
 }
 
 struct HistoricalEvents: SwiftProtobuf.Message {
@@ -113,13 +163,58 @@ extension HistoricalEvent: SwiftProtobuf._MessageImplementationBase, SwiftProtob
     2: .same(proto: "name"),
     3: .same(proto: "date"),
     4: .same(proto: "description"),
+    5: .same(proto: "verified"),
+    6: .same(proto: "battle"),
+    7: .same(proto: "sources"),
   ]
 
+  fileprivate class _StorageClass {
+    var _id: String = String()
+    var _name: String = String()
+    var _date: Int64 = 0
+    var _description_p: String = String()
+    var _verified: Bool = false
+    var _battle: Battle? = nil
+    var _sources: [String] = []
+
+    static let defaultInstance = _StorageClass()
+
+    private init() {}
+
+    init(copying source: _StorageClass) {
+      _id = source._id
+      _name = source._name
+      _date = source._date
+      _description_p = source._description_p
+      _verified = source._verified
+      _battle = source._battle
+      _sources = source._sources
+    }
+  }
+
+  fileprivate mutating func _uniqueStorage() -> _StorageClass {
+    if !isKnownUniquelyReferenced(&_storage) {
+      _storage = _StorageClass(copying: _storage)
+    }
+    return _storage
+  }
+
   func _protobuf_generated_isEqualTo(other: HistoricalEvent) -> Bool {
-    if self.id != other.id {return false}
-    if self.name != other.name {return false}
-    if self.date != other.date {return false}
-    if self.description_p != other.description_p {return false}
+    if _storage !== other._storage {
+      let storagesAreEqual: Bool = withExtendedLifetime((_storage, other._storage)) { (_args: (_StorageClass, _StorageClass)) in
+        let _storage = _args.0
+        let other_storage = _args.1
+        if _storage._id != other_storage._id {return false}
+        if _storage._name != other_storage._name {return false}
+        if _storage._date != other_storage._date {return false}
+        if _storage._description_p != other_storage._description_p {return false}
+        if _storage._verified != other_storage._verified {return false}
+        if _storage._battle != other_storage._battle {return false}
+        if _storage._sources != other_storage._sources {return false}
+        return true
+      }
+      if !storagesAreEqual {return false}
+    }
     if unknownFields != other.unknownFields {return false}
     return true
   }

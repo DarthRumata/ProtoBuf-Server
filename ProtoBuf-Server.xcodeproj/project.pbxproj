@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		924B851A1FD951B100BF4322 /* Battle.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924B85181FD94B9800BF4322 /* Battle.pb.swift */; };
+		9254D6341FD80C3E004F4388 /* HistoricalEventJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9254D6321FD80C3E004F4388 /* HistoricalEventJSON.swift */; };
 		925BAFAB1FC9EBEE008E922E /* HistoricalEvent.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925BAFAA1FC9EBED008E922E /* HistoricalEvent.pb.swift */; };
 		9297EA7D1FD56FE40047ECA7 /* DatabaseConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9297EA7B1FD56F4E0047ECA7 /* DatabaseConnector.swift */; };
 		OBJ_1094 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1051 /* Utilities.swift */; };
@@ -1852,6 +1854,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		924B85171FD9490600BF4322 /* Battle.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Battle.proto; sourceTree = "<group>"; };
+		924B85181FD94B9800BF4322 /* Battle.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Battle.pb.swift; path = Resources/Battle.pb.swift; sourceTree = "<group>"; };
+		9254D6321FD80C3E004F4388 /* HistoricalEventJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoricalEventJSON.swift; sourceTree = "<group>"; };
 		925BAFAA1FC9EBED008E922E /* HistoricalEvent.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HistoricalEvent.pb.swift; path = Resources/HistoricalEvent.pb.swift; sourceTree = "<group>"; };
 		925BAFAD1FC9EC22008E922E /* HistoricalEvent.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HistoricalEvent.proto; sourceTree = "<group>"; };
 		9297EA7B1FD56F4E0047ECA7 /* DatabaseConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseConnector.swift; sourceTree = "<group>"; };
@@ -3185,6 +3190,8 @@
 			isa = PBXGroup;
 			children = (
 				925BAFAA1FC9EBED008E922E /* HistoricalEvent.pb.swift */,
+				924B85181FD94B9800BF4322 /* Battle.pb.swift */,
+				9254D6321FD80C3E004F4388 /* HistoricalEventJSON.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -3193,6 +3200,7 @@
 			isa = PBXGroup;
 			children = (
 				925BAFAD1FC9EC22008E922E /* HistoricalEvent.proto */,
+				924B85171FD9490600BF4322 /* Battle.proto */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -6527,9 +6535,11 @@
 			files = (
 				OBJ_2402 /* HistoricalEventRoutes.swift in Sources */,
 				925BAFAB1FC9EBEE008E922E /* HistoricalEvent.pb.swift in Sources */,
+				9254D6341FD80C3E004F4388 /* HistoricalEventJSON.swift in Sources */,
 				OBJ_2403 /* SecurityDataReader.swift in Sources */,
 				OBJ_2404 /* Router.swift in Sources */,
 				9297EA7D1FD56FE40047ECA7 /* DatabaseConnector.swift in Sources */,
+				924B851A1FD951B100BF4322 /* Battle.pb.swift in Sources */,
 				OBJ_2405 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

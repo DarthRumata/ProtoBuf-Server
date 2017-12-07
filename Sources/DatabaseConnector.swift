@@ -21,18 +21,10 @@ struct DatabaseConnector {
 
   }
 
-  func findAllEvents() throws -> [HistoricalEvent] {
+  func findAllEvents() throws -> [Document] {
     let eventsCollection = myDatabase["historical_events"]
     let events = try eventsCollection.find()
-    return events.map { stored in
-      return HistoricalEvent.with { event in
-        let dict = stored.dictionaryRepresentation
-        event.id = (dict["_id"] as! BSON.ObjectId).hexString
-        event.name = dict["name"] as! String
-        event.description_p = (dict["description"] as? String) ?? ""
-        event.date = Int64((dict["date"] as! Date).timeIntervalSince1970)
-      }
-    }
+    return events.map { $0 }
   }
   
 }

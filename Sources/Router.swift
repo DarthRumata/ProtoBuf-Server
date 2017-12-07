@@ -14,6 +14,7 @@ enum Router {
   static func makeRoutes() -> Routes {
     var routes = Routes()
     routes.add(Router.makeHistoricalEventRoutes())
+    routes.add(Router.makeHistoricalEventJSONRoutes())
 
     return routes
   }
