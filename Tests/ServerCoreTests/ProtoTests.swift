@@ -13,15 +13,13 @@ import MongoKitten
 @testable import ServerCore
 
 private let database = DatabaseConnector()
+private var documents: [Document]!
 
 class ProtoTests: XCTestCase {
-
-  private var documents: [Document]!
 
   override func setUp() {
     super.setUp()
     // Put setup code here. This method is called before the invocation of each test method in the class.
-
     documents = try! database.findAllEvents()
   }
 
@@ -33,7 +31,7 @@ class ProtoTests: XCTestCase {
   func testPerformanceJSON() {
     // This is an example of a performance test case.
     self.measure {
-      let events = self.documents.map { stored -> HistoricalEventJSON in
+      let events = documents.map { stored -> HistoricalEventJSON in
         let dict = stored.dictionaryRepresentation
         let event = HistoricalEventJSON()
         event.id = (dict["_id"] as! BSON.ObjectId).hexString
@@ -66,7 +64,7 @@ class ProtoTests: XCTestCase {
 
   func testPerformanceProto() {
     self.measure {
-      let events = self.documents.map { stored in
+      let events = documents.map { stored in
         return HistoricalEvent.with { event in
           let dict = stored.dictionaryRepresentation
           event.id = (dict["_id"] as! BSON.ObjectId).hexString
