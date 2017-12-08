@@ -10,6 +10,7 @@ import Foundation
 import PerfectHTTPServer
 import PerfectRequestLogger
 import PerfectLib
+import ServerCore
 
 let server = HTTPServer()
 

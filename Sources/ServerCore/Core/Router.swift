@@ -9,9 +9,9 @@
 import Foundation
 import PerfectHTTP
 
-enum Router {
+public enum Router {
 
-  static func makeRoutes() -> Routes {
+  public static func makeRoutes() -> Routes {
     var routes = Routes()
     routes.add(Router.makeHistoricalEventRoutes())
     routes.add(Router.makeHistoricalEventJSONRoutes())

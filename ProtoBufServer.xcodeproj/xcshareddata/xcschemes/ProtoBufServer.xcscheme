@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1089"
+               BlueprintIdentifier = "OBJ_1102"
                BuildableName = "PerfectLib.framework"
                BlueprintName = "PerfectLib"
-               ReferencedContainer = "container:ProtoBuf-Server.xcodeproj">
+               ReferencedContainer = "container:ProtoBufServer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1105"
+               BlueprintIdentifier = "OBJ_1118"
                BuildableName = "PerfectThread.framework"
                BlueprintName = "PerfectThread"
-               ReferencedContainer = "container:ProtoBuf-Server.xcodeproj">
+               ReferencedContainer = "container:ProtoBufServer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -42,10 +42,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1114"
+               BlueprintIdentifier = "OBJ_1127"
                BuildableName = "COpenSSL.framework"
                BlueprintName = "COpenSSL"
-               ReferencedContainer = "container:ProtoBuf-Server.xcodeproj">
+               ReferencedContainer = "container:ProtoBufServer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -56,10 +56,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1802"
+               BlueprintIdentifier = "OBJ_1815"
                BuildableName = "PerfectCrypto.framework"
                BlueprintName = "PerfectCrypto"
-               ReferencedContainer = "container:ProtoBuf-Server.xcodeproj">
+               ReferencedContainer = "container:ProtoBufServer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -70,10 +70,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1821"
+               BlueprintIdentifier = "OBJ_1834"
                BuildableName = "PerfectNet.framework"
                BlueprintName = "PerfectNet"
-               ReferencedContainer = "container:ProtoBuf-Server.xcodeproj">
+               ReferencedContainer = "container:ProtoBufServer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -84,10 +84,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1842"
+               BlueprintIdentifier = "OBJ_1855"
                BuildableName = "PerfectHTTP.framework"
                BlueprintName = "PerfectHTTP"
-               ReferencedContainer = "container:ProtoBuf-Server.xcodeproj">
+               ReferencedContainer = "container:ProtoBufServer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -98,10 +98,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1867"
+               BlueprintIdentifier = "OBJ_1880"
                BuildableName = "PerfectCZlib.framework"
                BlueprintName = "PerfectCZlib"
-               ReferencedContainer = "container:ProtoBuf-Server.xcodeproj">
+               ReferencedContainer = "container:ProtoBufServer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -112,10 +112,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1901"
+               BlueprintIdentifier = "OBJ_1914"
                BuildableName = "PerfectHTTPServer.framework"
                BlueprintName = "PerfectHTTPServer"
-               ReferencedContainer = "container:ProtoBuf-Server.xcodeproj">
+               ReferencedContainer = "container:ProtoBufServer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -126,10 +126,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1940"
+               BlueprintIdentifier = "OBJ_1953"
                BuildableName = "PerfectCHTTPParser.framework"
                BlueprintName = "PerfectCHTTPParser"
-               ReferencedContainer = "container:ProtoBuf-Server.xcodeproj">
+               ReferencedContainer = "container:ProtoBufServer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -140,10 +140,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1961"
+               BlueprintIdentifier = "OBJ_1974"
                BuildableName = "SwiftMoment.framework"
                BlueprintName = "SwiftMoment"
-               ReferencedContainer = "container:ProtoBuf-Server.xcodeproj">
+               ReferencedContainer = "container:ProtoBufServer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -154,10 +154,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1973"
+               BlueprintIdentifier = "OBJ_1986"
                BuildableName = "PerfectCURL.framework"
                BlueprintName = "PerfectCURL"
-               ReferencedContainer = "container:ProtoBuf-Server.xcodeproj">
+               ReferencedContainer = "container:ProtoBufServer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -168,10 +168,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1996"
+               BlueprintIdentifier = "OBJ_2009"
                BuildableName = "PerfectLogger.framework"
                BlueprintName = "PerfectLogger"
-               ReferencedContainer = "container:ProtoBuf-Server.xcodeproj">
+               ReferencedContainer = "container:ProtoBufServer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -182,10 +182,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2020"
+               BlueprintIdentifier = "OBJ_2033"
                BuildableName = "SwiftRandom.framework"
                BlueprintName = "SwiftRandom"
-               ReferencedContainer = "container:ProtoBuf-Server.xcodeproj">
+               ReferencedContainer = "container:ProtoBufServer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -196,10 +196,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2029"
+               BlueprintIdentifier = "OBJ_2042"
                BuildableName = "PerfectRequestLogger.framework"
                BlueprintName = "PerfectRequestLogger"
-               ReferencedContainer = "container:ProtoBuf-Server.xcodeproj">
+               ReferencedContainer = "container:ProtoBufServer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -210,24 +210,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2062"
+               BlueprintIdentifier = "OBJ_2075"
                BuildableName = "BSON.framework"
                BlueprintName = "BSON"
-               ReferencedContainer = "container:ProtoBuf-Server.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2089"
-               BuildableName = "Cheetah.framework"
-               BlueprintName = "Cheetah"
-               ReferencedContainer = "container:ProtoBuf-Server.xcodeproj">
+               ReferencedContainer = "container:ProtoBufServer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -239,9 +225,23 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "OBJ_2102"
+               BuildableName = "Cheetah.framework"
+               BlueprintName = "Cheetah"
+               ReferencedContainer = "container:ProtoBufServer.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_2115"
                BuildableName = "CryptoKitten.framework"
                BlueprintName = "CryptoKitten"
-               ReferencedContainer = "container:ProtoBuf-Server.xcodeproj">
+               ReferencedContainer = "container:ProtoBufServer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -252,10 +252,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2118"
+               BlueprintIdentifier = "OBJ_2131"
                BuildableName = "Schrodinger.framework"
                BlueprintName = "Schrodinger"
-               ReferencedContainer = "container:ProtoBuf-Server.xcodeproj">
+               ReferencedContainer = "container:ProtoBufServer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -266,10 +266,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2125"
+               BlueprintIdentifier = "OBJ_2138"
                BuildableName = "ExtendedJSON.framework"
                BlueprintName = "ExtendedJSON"
-               ReferencedContainer = "container:ProtoBuf-Server.xcodeproj">
+               ReferencedContainer = "container:ProtoBufServer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -280,10 +280,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2141"
+               BlueprintIdentifier = "OBJ_2154"
                BuildableName = "GeoJSON.framework"
                BlueprintName = "GeoJSON"
-               ReferencedContainer = "container:ProtoBuf-Server.xcodeproj">
+               ReferencedContainer = "container:ProtoBufServer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -294,10 +294,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2166"
+               BlueprintIdentifier = "OBJ_2179"
                BuildableName = "MongoKitten.framework"
                BlueprintName = "MongoKitten"
-               ReferencedContainer = "container:ProtoBuf-Server.xcodeproj">
+               ReferencedContainer = "container:ProtoBufServer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -308,24 +308,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2230"
+               BlueprintIdentifier = "OBJ_2243"
                BuildableName = "MongoSocket.framework"
                BlueprintName = "MongoSocket"
-               ReferencedContainer = "container:ProtoBuf-Server.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2247"
-               BuildableName = "Conformance"
-               BlueprintName = "Conformance"
-               ReferencedContainer = "container:ProtoBuf-Server.xcodeproj">
+               ReferencedContainer = "container:ProtoBufServer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -337,9 +323,23 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "OBJ_2260"
+               BuildableName = "Conformance"
+               BlueprintName = "Conformance"
+               ReferencedContainer = "container:ProtoBufServer.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_2273"
                BuildableName = "PluginLibrary.framework"
                BlueprintName = "PluginLibrary"
-               ReferencedContainer = "container:ProtoBuf-Server.xcodeproj">
+               ReferencedContainer = "container:ProtoBufServer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -350,10 +350,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2287"
+               BlueprintIdentifier = "OBJ_2300"
                BuildableName = "protoc-gen-swift"
                BlueprintName = "protoc-gen-swift"
-               ReferencedContainer = "container:ProtoBuf-Server.xcodeproj">
+               ReferencedContainer = "container:ProtoBufServer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -364,10 +364,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2259"
+               BlueprintIdentifier = "OBJ_2272"
                BuildableName = "SwiftProtobuf.framework"
                BlueprintName = "SwiftProtobuf"
-               ReferencedContainer = "container:ProtoBuf-Server.xcodeproj">
+               ReferencedContainer = "container:ProtoBufServer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -378,10 +378,24 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2397"
-               BuildableName = "ProtoBuf-Server"
-               BlueprintName = "ProtoBuf-Server"
-               ReferencedContainer = "container:ProtoBuf-Server.xcodeproj">
+               BlueprintIdentifier = "OBJ_2410"
+               BuildableName = "Server"
+               BlueprintName = "Server"
+               ReferencedContainer = "container:ProtoBufServer.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_2467"
+               BuildableName = "ServerCore.framework"
+               BlueprintName = "ServerCore"
+               ReferencedContainer = "container:ProtoBufServer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -392,6 +406,16 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_2528"
+               BuildableName = "ServerCoreTests.xctest"
+               BlueprintName = "ServerCoreTests"
+               ReferencedContainer = "container:ProtoBufServer.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <AdditionalOptions>
       </AdditionalOptions>
@@ -409,10 +433,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "OBJ_1089"
+            BlueprintIdentifier = "OBJ_1102"
             BuildableName = "PerfectLib.framework"
             BlueprintName = "PerfectLib"
-            ReferencedContainer = "container:ProtoBuf-Server.xcodeproj">
+            ReferencedContainer = "container:ProtoBufServer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
